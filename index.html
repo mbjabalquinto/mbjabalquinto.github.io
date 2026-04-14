@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marcos Jabalquinto | IT Operations & Support</title>
+    <style>
+        :root {
+            --bg-color: #0f172a;
+            --text-color: #f1f5f9;
+            --accent-color: #38bdf8;
+            --card-bg: #1e293b;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 600px;
+            text-align: center;
+        }
+
+        .profile-img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            border: 3px solid var(--accent-color);
+            margin-bottom: 20px;
+            object-fit: cover;
+        }
+
+        h1 {
+            margin: 10px 0;
+            font-size: 2.5rem;
+            letter-spacing: -1px;
+        }
+
+        .subtitle {
+            color: var(--accent-color);
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 30px;
+            font-size: 0.9rem;
+        }
+
+        .links-grid {
+            display: grid;
+            gap: 15px;
+            width: 100%;
+        }
+
+        .btn {
+            background-color: var(--card-bg);
+            color: white;
+            padding: 18px;
+            text-decoration: none;
+            border-radius: 12px;
+            border: 1px solid #334155;
+            transition: all 0.3s ease;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .btn:hover {
+            border-color: var(--accent-color);
+            transform: translateY(-3px);
+            background-color: #334155;
+        }
+
+        .btn-primary {
+            background-color: var(--accent-color);
+            color: var(--bg-color);
+            border: none;
+        }
+
+        .btn-primary:hover {
+            background-color: #7dd3fc;
+            color: var(--bg-color);
+        }
+
+        .footer {
+            margin-top: 50px;
+            font-size: 0.8rem;
+            color: #64748b;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <img src="Avatar.jpeg" alt="Marcos Jabalquinto" class="profile-img">
+        
+        <h1>MARCOS JABALQUINTO</h1>
+        <div class="subtitle">IT Operations & Support | 42 Málaga Student</div>
+
+        <div class="links-grid">
+            <a href="CV_Marcos_Jabalquinto.pdf" class="btn btn-primary" target="_blank">
+                📄 Ver Currículum Vitae (PDF)
+            </a>
+
+            <a href="http://la-web-de-tu-mujer.com" class="btn" target="_blank">
+                💇‍♀️ Proyecto: Web Corporativa Sector Estética
+            </a>
+
+            <a href="link-al-juego-7-y-media" class="btn" target="_blank">
+                🃏 Ejercicio JS: Juego de Cartas "7 y Media"
+            </a>
+
+            <a href="link-al-juego-memoria" class="btn" target="_blank">
+                🧠 Ejercicio JS: Juego de Memoria
+            </a>
+            
+            <a href="https://linkedin.com/in/tu-perfil" class="btn" style="border-color: #0077b5;" target="_blank">
+                🔗 Perfil de LinkedIn
+            </a>
+        </div>
+
+        <div class="footer">
+            © 2026 Marcos Jabalquinto - Málaga, España
+        </div>
+    </div>
+
+</body>
+</html>
