@@ -66,7 +66,9 @@
         .links-grid {
             display: grid;
             gap: 15px;
-            width: 70%;
+            width: 90%;      /* En móvil 70% es poco, mejor 90% */
+            max-width: 450px; /* Y en PC lo limitamos para que no sea gigante */
+            margin: 0 auto;  /* <--- ESTA ES LA PIEZA QUE FALTA */
         }
 
         .btn {
